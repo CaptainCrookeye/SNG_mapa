@@ -6,11 +6,52 @@ public class Pan_Zoom : MonoBehaviour
 {
     //toto dat na Main Camera len pre Android
     Vector3 StartTouch;
+    Rigidbody2D rb;
+    [Header("Zoom")]
     [SerializeField] float MinZoom = 1;
     [SerializeField] float MaxZoom = 8;
+    [Header("Camera movement")]
+    [SerializeField] float MinX = -30;
+    [SerializeField] float MaxX = 30;
+    [SerializeField] float MinY = -25;
+    [SerializeField] float MaxY = 25;
+    float x;
+    float y;
+    bool CanMove = true;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
     void Update()
     {
-        if(Input.GetMouseButtonDown(0) && !Klik.control)
+        x = Camera.main.transform.position.x;
+        y = Camera.main.transform.position.y;
+        if(x<=MaxX && x>=MinX && y<=MaxY && y>=MinY)
+        {
+            CanMove = true;
+            rb.velocity = Vector2.zero;
+        }
+        else
+        {
+            CanMove = false;
+            if(x>MaxX)
+            {
+                rb.velocity = Vector2.left*20;
+            }
+            if(x<MinX)
+            {
+                rb.velocity = Vector2.right*20;
+            }
+            if(y>MaxY)
+            {
+                rb.velocity = Vector2.down*20;
+            }
+            if(y<MinY)
+            {
+                rb.velocity = Vector2.up*20;
+            }
+        }
+        if (Input.GetMouseButtonDown(0) && !Klik.control)
         {
             StartTouch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
@@ -27,9 +68,11 @@ public class Pan_Zoom : MonoBehaviour
         else if (Input.GetMouseButton(0) && !Klik.control)
         {
             Vector3 direction = StartTouch - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Camera.main.transform.Translate(direction);
+            if(CanMove)
+            {
+                Camera.main.transform.Translate(direction);
+            }
         }
-        Zoom(Input.GetAxis("Mouse ScrollWheel"));
     }
     void Zoom(float increment)
     {
