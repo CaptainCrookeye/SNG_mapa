@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pan_Zoom : MonoBehaviour
+public class Kamera : MonoBehaviour
 {
     //toto dat na Main Camera len pre Android
     Vector3 StartTouch;
     Rigidbody2D rb;
     [Header("Zoom")]
-    [SerializeField] float MinZoom = 1;
-    [SerializeField] float MaxZoom = 8;
+    [SerializeField] float MinZoom = 10;
+    [SerializeField] float DefaultZoom = 17;
+    [SerializeField] float MaxZoom = 20;
     [Header("Camera movement")]
     [SerializeField] float MinX = -30;
     [SerializeField] float MaxX = 30;
@@ -51,7 +52,7 @@ public class Pan_Zoom : MonoBehaviour
                 rb.velocity = Vector2.up*20;
             }
         }
-        if (Input.GetMouseButtonDown(0) && !Klik.control)
+        if (Input.GetMouseButtonDown(0) && !Triedy.control)
         {
             StartTouch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
@@ -65,7 +66,7 @@ public class Pan_Zoom : MonoBehaviour
             float difference = (touch0.position - touch1.position).magnitude - (touch0Prev - touch1Prev).magnitude;
             Zoom(difference * 0.01f);
         }
-        else if (Input.GetMouseButton(0) && !Klik.control)
+        else if (Input.GetMouseButton(0) && !Triedy.control)
         {
             Vector3 direction = StartTouch - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(CanMove)
@@ -77,5 +78,10 @@ public class Pan_Zoom : MonoBehaviour
     void Zoom(float increment)
     {
         Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, MinZoom, MaxZoom);
+    }
+    public void KameraReset()
+    {
+        Camera.main.orthographicSize = DefaultZoom;
+        rb.position = new Vector3(0,0);
     }
 }

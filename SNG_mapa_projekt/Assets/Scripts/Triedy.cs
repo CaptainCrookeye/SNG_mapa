@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Klik : MonoBehaviour
+public class Triedy : MonoBehaviour
 {
     [SerializeField] GameObject popis;
     public static bool control = false;
