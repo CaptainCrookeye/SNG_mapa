@@ -10,11 +10,14 @@ public class Triedy : MonoBehaviour
     [SerializeField] Animator anim;
     public void Open()
     {
-        if(!control)
+        if(!control && !Vyhladavanie.instance)
         {
-            popis.SetActive(true);
-            control = true;
+            popis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
+            popis.transform.GetChild(1).gameObject.SetActive(true); //Button back
+            popis.transform.GetChild(2).gameObject.SetActive(true); //Image
+            popis.transform.GetChild(3).gameObject.SetActive(true); //Trieda
             anim.SetBool("Open", true);
+            control = true;
         }     
     }
     public void Close()
@@ -26,6 +29,9 @@ public class Triedy : MonoBehaviour
     {
         anim.SetBool("Open", false);
         yield return new WaitForSeconds(0.6f);
-        popis.SetActive(false);
+        popis.transform.GetChild(0).gameObject.SetActive(false);
+        popis.transform.GetChild(1).gameObject.SetActive(false);
+        popis.transform.GetChild(2).gameObject.SetActive(false);
+        popis.transform.GetChild(3).gameObject.SetActive(false);
     }
 }
