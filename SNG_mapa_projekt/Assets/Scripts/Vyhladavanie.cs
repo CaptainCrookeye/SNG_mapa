@@ -8,6 +8,9 @@ public class Vyhladavanie : MonoBehaviour
     [SerializeField] GameObject SearchBar;
     [SerializeField] Animator anim;
     [SerializeField] Kamera kamera;
+    [SerializeField] GameObject ErrorText;
+    GameObject trieda;
+    GameObject MojPopis;
     GameObject popis;
     public static bool instance = false;
     public void OpenClose()
@@ -15,6 +18,7 @@ public class Vyhladavanie : MonoBehaviour
         if(!instance)
         {
             instance = true;
+            ErrorText.SetActive(false);
             SearchBar.SetActive(true);
             anim.SetBool("Open",true);
         }
@@ -27,24 +31,33 @@ public class Vyhladavanie : MonoBehaviour
     {
         anim.SetBool("Open", false);
         instance = false;
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.6f);      
         SearchBar.SetActive(false);
     }
     public void Search()
     {
         if(!Triedy.control)
-        {
-            kamera.KameraReset();
-            popis = GameObject.Find(input.text);
-            GameObject MojPopis = popis.transform.parent.gameObject;
-            MojPopis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
-            MojPopis.transform.GetChild(1).gameObject.SetActive(true); //Button back
-            MojPopis.transform.GetChild(2).gameObject.SetActive(true); //Image
-            MojPopis.transform.GetChild(3).gameObject.SetActive(true); //Trieda
-            MojPopis.GetComponent<Animator>().SetBool("Open", true);
-            Triedy.control = true;
-            instance = false;
-            SearchBar.SetActive(false);
+        {         
+            trieda = GameObject.Find(input.text);
+            if(trieda != null)
+            {
+                MojPopis = trieda.transform.parent.gameObject;
+                popis = MojPopis.transform.parent.gameObject;
+                popis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
+                popis.transform.GetChild(1).gameObject.SetActive(true); //Button back
+                popis.transform.GetChild(2).gameObject.SetActive(true); //Image
+                popis.transform.GetChild(3).gameObject.SetActive(true); //Trieda
+                popis.GetComponent<Animator>().SetBool("Open", true);
+                Triedy.control = true;
+                instance = false;
+                SearchBar.SetActive(false);
+                ErrorText.SetActive(false);
+                kamera.KameraReset();              
+            }
+            else 
+            {
+                ErrorText.SetActive(true);
+            }
         }       
     }
 }
