@@ -52,12 +52,11 @@ public class Kamera : MonoBehaviour
                 rb.velocity = Vector2.up*20;
             }
         }
-        if (Input.GetMouseButtonDown(0) && !Triedy.control)
+        if (Input.GetMouseButtonDown(0))
         {
             StartTouch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }
-        
-        if(Input.touchCount == 2)
+        }    
+        if(Input.touchCount == 2) //Zoom Android
         {
             Touch touch0 = Input.GetTouch(0);
             Touch touch1 = Input.GetTouch(1);
@@ -66,7 +65,7 @@ public class Kamera : MonoBehaviour
             float difference = (touch0.position - touch1.position).magnitude - (touch0Prev - touch1Prev).magnitude;
             Zoom(difference * 0.01f);
         }
-        else if (Input.GetMouseButton(0) && !Triedy.control)
+        else if (Input.GetMouseButton(0))
         {
             Vector3 direction = StartTouch - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(CanMove)
@@ -74,6 +73,7 @@ public class Kamera : MonoBehaviour
                 Camera.main.transform.Translate(direction);
             }
         }
+        Zoom(Input.GetAxisRaw("Mouse ScrollWheel")*2.5f); //Zoom PC
     }
     void Zoom(float increment)
     {
