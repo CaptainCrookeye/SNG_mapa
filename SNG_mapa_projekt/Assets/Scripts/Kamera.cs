@@ -12,13 +12,14 @@ public class Kamera : MonoBehaviour
     [SerializeField] float DefaultZoom = 17;
     [SerializeField] float MaxZoom = 20;
     [Header("Camera movement")]
-    [SerializeField] float MinX = -30;
-    [SerializeField] float MaxX = 30;
-    [SerializeField] float MinY = -25;
-    [SerializeField] float MaxY = 25;
+    public float MinX = -30;
+    public float MaxX = 30;
+    public float MinY = -25;
+    public float MaxY = 25;
     float x;
     float y;
     bool CanMove = true;
+    public Transform ResetPos;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -82,6 +83,6 @@ public class Kamera : MonoBehaviour
     public void KameraReset()
     {
         Camera.main.orthographicSize = DefaultZoom;
-        rb.position = new Vector3(0,0);
+        Camera.main.transform.position = ResetPos.position;
     }
 }
