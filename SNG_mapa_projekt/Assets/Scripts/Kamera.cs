@@ -12,10 +12,10 @@ public class Kamera : MonoBehaviour
     [SerializeField] float DefaultZoom = 17;
     [SerializeField] float MaxZoom = 20;
     [Header("Camera movement")]
-    public float MinX = -30;
-    public float MaxX = 30;
-    public float MinY = -25;
-    public float MaxY = 25;
+    public float MinX = -42; //2.poschodie
+    public float MaxX = 22; //2.poschodie
+    public float MinY = -26; //2.poschodie
+    public float MaxY = 26; //2.poschodie
     float x;
     float y;
     bool CanMove = true;
