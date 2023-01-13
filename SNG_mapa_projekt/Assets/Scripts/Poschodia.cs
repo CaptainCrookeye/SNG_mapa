@@ -9,8 +9,24 @@ public class Poschodia : MonoBehaviour
     [SerializeField] Transform poschodie2;
     [SerializeField] Transform poschodie3;
     int AktualnePoschodie = 2;
-    [SerializeField] Image Button1; //provizorne
-    [SerializeField] Image Button2; //provizorne
+    [SerializeField] Image Button_1;
+    [SerializeField] Image Button0;
+    [SerializeField] Image Button1;
+    [SerializeField] Image Button2;
+    [SerializeField] Image Button3;
+    [SerializeField] Image Button4;
+    [SerializeField] Sprite Button_default_1;
+    [SerializeField] Sprite Button_default0;
+    [SerializeField] Sprite Button_default1;
+    [SerializeField] Sprite Button_default2;
+    [SerializeField] Sprite Button_default3;
+    [SerializeField] Sprite Button_default4;
+    [SerializeField] Sprite Button_pressed_1;
+    [SerializeField] Sprite Button_pressed0;
+    [SerializeField] Sprite Button_pressed1;
+    [SerializeField] Sprite Button_pressed2;
+    [SerializeField] Sprite Button_pressed3;
+    [SerializeField] Sprite Button_pressed4;
     public void Poschodie1()
     {
         if(AktualnePoschodie!=1)
@@ -19,11 +35,15 @@ public class Poschodia : MonoBehaviour
             kamera.MinY = -126;
             kamera.MaxY = -74;
             kamera.MinX = -42;
-            kamera.MaxX = 22;
+            kamera.MaxX = 42;
             kamera.ResetPos = poschodie1;
             AktualnePoschodie = 1;
-            Button1.color = new Color(0, 0.6470588f, 1, 1);
-            Button2.color = Color.white;
+            Button_1.sprite = Button_default_1;
+            Button0.sprite = Button_default0;
+            Button1.sprite = Button_pressed1;
+            Button2.sprite = Button_default2;
+            Button3.sprite = Button_default3;
+            Button4.sprite = Button_default4;
         }
     }
     public void Poschodie2()
@@ -34,11 +54,14 @@ public class Poschodia : MonoBehaviour
             kamera.MinY = -26;
             kamera.MaxY = 26;
             kamera.MinX = -42;
-            kamera.MaxX = 22;
+            kamera.MaxX = 42;
             kamera.ResetPos = poschodie2;
             AktualnePoschodie = 2;
-            Button2.color = new Color(0,0.6470588f,1,1);
-            Button1.color = Color.white;
+            Button0.sprite = Button_default0;
+            Button1.sprite = Button_default1;
+            Button2.sprite = Button_pressed2;
+            Button3.sprite = Button_default3;
+            Button4.sprite = Button_default4;
         }       
     }
     public void Poschodie3()
@@ -52,6 +75,11 @@ public class Poschodia : MonoBehaviour
             kamera.MaxX = 225;
             kamera.ResetPos = poschodie3;
             AktualnePoschodie = 3;
+            Button0.sprite = Button_default0;
+            Button1.sprite = Button_default1;
+            Button2.sprite = Button_default2;
+            Button3.sprite = Button_pressed3;
+            Button4.sprite = Button_default4;
         }
     }
 }

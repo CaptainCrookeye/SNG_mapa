@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 public class Vyhladavanie : MonoBehaviour
 {
     [SerializeField] TMP_InputField input;
@@ -9,6 +10,9 @@ public class Vyhladavanie : MonoBehaviour
     [SerializeField] Animator anim;
     [SerializeField] Kamera kamera;
     [SerializeField] GameObject ErrorText;
+    [SerializeField] Image SearchButton;
+    [SerializeField] Sprite Image_default;
+    [SerializeField] Sprite Image_pressed;
     GameObject trieda;
     GameObject MojPopis;
     GameObject popis;
@@ -21,6 +25,7 @@ public class Vyhladavanie : MonoBehaviour
             ErrorText.SetActive(false);
             SearchBar.SetActive(true);
             anim.SetBool("Open",true);
+            SearchButton.sprite = Image_pressed;
         }
         else
         {
@@ -31,6 +36,7 @@ public class Vyhladavanie : MonoBehaviour
     {
         anim.SetBool("Open", false);
         instance = false;
+        SearchButton.sprite = Image_default;
         yield return new WaitForSeconds(0.6f);      
         SearchBar.SetActive(false);
     }
