@@ -5,9 +5,12 @@ using UnityEngine.UI;
 public class Poschodia : MonoBehaviour
 {
     [SerializeField] Kamera kamera;
+    [SerializeField] Transform poschodie_1;
+    [SerializeField] Transform poschodie0;
     [SerializeField] Transform poschodie1;
     [SerializeField] Transform poschodie2;
     [SerializeField] Transform poschodie3;
+    [SerializeField] Transform poschodie4;
     int AktualnePoschodie = 2;
     [SerializeField] Image Button_1;
     [SerializeField] Image Button0;
@@ -57,12 +60,51 @@ public class Poschodia : MonoBehaviour
             kamera.MaxX = 42;
             kamera.ResetPos = poschodie2;
             AktualnePoschodie = 2;
+            Button_1.sprite = Button_default_1;
             Button0.sprite = Button_default0;
             Button1.sprite = Button_default1;
             Button2.sprite = Button_pressed2;
             Button3.sprite = Button_default3;
             Button4.sprite = Button_default4;
         }       
+    }
+    public void Poschodie0()
+    {
+        if (AktualnePoschodie != 0)
+        {
+            Camera.main.transform.position = poschodie0.position;
+            kamera.MinY = -226;
+            kamera.MaxY = -174;
+            kamera.MinX = -42;
+            kamera.MaxX = 42;
+            kamera.ResetPos = poschodie0;
+            AktualnePoschodie = 0;
+            Button_1.sprite = Button_default_1;
+            Button0.sprite = Button_pressed0;
+            Button1.sprite = Button_default1;
+            Button2.sprite = Button_default2;
+            Button3.sprite = Button_default3;
+            Button4.sprite = Button_default4;
+        }
+    }
+    public void Poschodie_1()
+    {
+        if (AktualnePoschodie != -1)
+        {
+            Camera.main.transform.position = poschodie_1.position;
+            kamera.MinY = -326;
+            kamera.MaxY = -274;
+            kamera.MinX = -42;
+            kamera.MaxX = 42;
+            kamera.ResetPos = poschodie_1;
+            AktualnePoschodie = -1;
+            Button_1.sprite = Button_pressed_1;
+            Button0.sprite = Button_default0;
+            Button1.sprite = Button_default1;
+            Button2.sprite = Button_default2;
+            Button3.sprite = Button_default3;
+            Button4.sprite = Button_default4;
+        }
     }
     public void Poschodie3()
     {
@@ -75,11 +117,31 @@ public class Poschodia : MonoBehaviour
             kamera.MaxX = 225;
             kamera.ResetPos = poschodie3;
             AktualnePoschodie = 3;
+            Button_1.sprite = Button_default_1;
             Button0.sprite = Button_default0;
             Button1.sprite = Button_default1;
             Button2.sprite = Button_default2;
             Button3.sprite = Button_pressed3;
             Button4.sprite = Button_default4;
+        }
+    }
+    public void Poschodie4()
+    {
+        if (AktualnePoschodie != 4)
+        {
+            Camera.main.transform.position = poschodie4.position;
+            kamera.MinY = -20;
+            kamera.MaxY = 20;
+            kamera.MinX = 175;
+            kamera.MaxX = 225;
+            kamera.ResetPos = poschodie4;
+            AktualnePoschodie = 4;
+            Button_1.sprite = Button_default_1;
+            Button0.sprite = Button_default0;
+            Button1.sprite = Button_default1;
+            Button2.sprite = Button_default2;
+            Button3.sprite = Button_default3;
+            Button4.sprite = Button_pressed4;
         }
     }
 }

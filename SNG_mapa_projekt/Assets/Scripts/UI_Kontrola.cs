@@ -8,6 +8,7 @@ public class UI_Kontrola : MonoBehaviour
     [SerializeField] Image image;
     [SerializeField] Sprite Button_default;
     [SerializeField] Sprite Button_pressed;
+    [SerializeField] Vyhladavanie vyhladavanie;
     bool UI = true;
     bool instance = true;
     void Update()
@@ -34,6 +35,11 @@ public class UI_Kontrola : MonoBehaviour
             UI = false;
             image.sprite = Button_default;
             instance = false;
+            if(Vyhladavanie.instance)
+            {
+                Vyhladavanie.instance = true;
+                vyhladavanie.OpenClose();
+            }          
         }            
     }
 }

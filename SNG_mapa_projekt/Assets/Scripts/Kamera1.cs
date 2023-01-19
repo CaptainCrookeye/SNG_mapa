@@ -26,10 +26,15 @@ public class Kamera1 : MonoBehaviour
     }
     void Update()
     {
+        
         if (Input.GetMouseButtonDown(0))
         {
             StartTouch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }    
+        if(Input.GetMouseButtonUp(0))
+        {
+            Camera.main.transform.position = gameObject.transform.position;
+        }
         if(Input.touchCount == 2) //Zoom Android
         {
             Touch touch0 = Input.GetTouch(0);
@@ -45,6 +50,7 @@ public class Kamera1 : MonoBehaviour
             if(CanMove)
             {
                 gameObject.transform.Translate(direction);
+                Camera.main.transform.Translate(direction);
             }
         }
         Zoom(Input.GetAxisRaw("Mouse ScrollWheel")*2.5f); //Zoom PC
@@ -56,6 +62,7 @@ public class Kamera1 : MonoBehaviour
     public void KameraReset()
     {
         Camera.main.orthographicSize = DefaultZoom;
+        Camera.main.transform.position = ResetPos.position;
         gameObject.transform.position = ResetPos.position;
     }
 }

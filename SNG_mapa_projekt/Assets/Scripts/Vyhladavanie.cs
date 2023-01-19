@@ -47,6 +47,7 @@ public class Vyhladavanie : MonoBehaviour
             trieda = GameObject.Find(input.text);
             if(trieda != null)
             {
+                SearchButton.sprite = Image_default;
                 MojPopis = trieda.transform.parent.gameObject;
                 popis = MojPopis.transform.parent.gameObject;
                 popis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
