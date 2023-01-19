@@ -14,6 +14,7 @@ public class Vyhladavanie : MonoBehaviour
     [SerializeField] Sprite Image_default;
     [SerializeField] Sprite Image_pressed;
     GameObject trieda;
+    GameObject[] triedy;
     GameObject MojPopis;
     GameObject popis;
     public static bool instance = false;
@@ -62,11 +63,43 @@ public class Vyhladavanie : MonoBehaviour
                 SearchBar.SetActive(false);
                 ErrorText.SetActive(false);
                 kamera.KameraReset();              
-            }
+            }                       
             else 
             {
                 ErrorText.SetActive(true);
             }
         }       
+    }
+    public void Search1()//testing
+    {
+        triedy = GameObject.FindGameObjectsWithTag("Search_multi");
+        trieda = GameObject.Find(input.text);
+        if (triedy.Length!=0)
+        {
+            Debug.Log(triedy[0]);
+            Debug.Log(triedy[1]);
+        }
+        else if (trieda != null)
+        {
+            SearchButton.sprite = Image_default;
+            MojPopis = trieda.transform.parent.gameObject;
+            popis = MojPopis.transform.parent.gameObject;
+            popis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
+            popis.transform.GetChild(1).gameObject.SetActive(true); //Button back
+            popis.transform.GetChild(2).gameObject.SetActive(true); //Image
+            popis.transform.GetChild(3).gameObject.SetActive(true); //Trieda
+            popis.transform.GetChild(4).gameObject.SetActive(true);
+            popis.transform.GetChild(5).gameObject.SetActive(true);
+            popis.GetComponent<Animator>().SetBool("Open", true);
+            Triedy.control = true;
+            instance = false;
+            SearchBar.SetActive(false);
+            ErrorText.SetActive(false);
+            kamera.KameraReset();
+        }
+        else
+        {
+            ErrorText.SetActive(true);
+        }
     }
 }

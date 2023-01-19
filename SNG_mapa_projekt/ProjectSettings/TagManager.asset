@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Search Marker
+  - Search_multi
   layers:
   - Default
   - TransparentFX
