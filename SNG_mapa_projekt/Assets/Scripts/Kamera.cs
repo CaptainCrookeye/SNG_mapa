@@ -6,53 +6,13 @@ public class Kamera : MonoBehaviour
 {
     //toto dat na Main Camera len pre Android
     Vector3 StartTouch;
-    Rigidbody2D rb;
-    [Header("Zoom")]
     [SerializeField] float MinZoom = 10;
     [SerializeField] float DefaultZoom = 17;
     [SerializeField] float MaxZoom = 20;
-    [Header("Camera movement")]
-    public float MinX = -42; //2.poschodie
-    public float MaxX = 22; //2.poschodie
-    public float MinY = -26; //2.poschodie
-    public float MaxY = 26; //2.poschodie
-    float x;
-    float y;
-    bool CanMove = true;
     public Transform ResetPos;
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
+    public static bool CanMove = true;
     void Update()
     {
-        x = Camera.main.transform.position.x;
-        y = Camera.main.transform.position.y;
-        if(x<=MaxX && x>=MinX && y<=MaxY && y>=MinY)
-        {
-            CanMove = true;
-            rb.velocity = Vector2.zero;
-        }
-        else
-        {
-            CanMove = false;
-            if(x>MaxX)
-            {
-                rb.velocity = Vector2.left*20;
-            }
-            if(x<MinX)
-            {
-                rb.velocity = Vector2.right*20;
-            }
-            if(y>MaxY)
-            {
-                rb.velocity = Vector2.down*20;
-            }
-            if(y<MinY)
-            {
-                rb.velocity = Vector2.up*20;
-            }
-        }
         if (Input.GetMouseButtonDown(0))
         {
             StartTouch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -70,11 +30,9 @@ public class Kamera : MonoBehaviour
         {
             Vector3 direction = StartTouch - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(CanMove)
-            {
                 Camera.main.transform.Translate(direction);
-            }
         }
-        Zoom(Input.GetAxisRaw("Mouse ScrollWheel")*2.5f); //Zoom PC
+        Zoom(Input.GetAxisRaw("Mouse ScrollWheel")*2.5f); //Zoom PC         
     }
     void Zoom(float increment)
     {
@@ -84,5 +42,15 @@ public class Kamera : MonoBehaviour
     {
         Camera.main.orthographicSize = DefaultZoom;
         Camera.main.transform.position = ResetPos.position;
+        CanMove = true;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        CanMove = false;
+        Camera.main.transform.position = ResetPos.position;
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        CanMove = true;
     }
 }
