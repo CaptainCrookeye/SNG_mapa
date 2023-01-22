@@ -14,7 +14,7 @@ public class Vyhladavanie : MonoBehaviour
     [SerializeField] Sprite Image_default;
     [SerializeField] Sprite Image_pressed;
     GameObject trieda;
-    GameObject[] triedy;
+    List<string> triedy = new List<string>();
     GameObject MojPopis;
     GameObject popis;
     public static bool instance = false;
@@ -41,7 +41,7 @@ public class Vyhladavanie : MonoBehaviour
         yield return new WaitForSeconds(0.6f);      
         SearchBar.SetActive(false);
     }
-    public void Search()
+    public void Search1()
     {
         if(!Triedy.control)
         {         
@@ -68,38 +68,23 @@ public class Vyhladavanie : MonoBehaviour
             {
                 ErrorText.SetActive(true);
             }
-        }       
+        }
+        
+        
     }
-    public void Search1()//testing
+    public void Search()//testing
     {
-        triedy = GameObject.FindGameObjectsWithTag("Search_multi");
+       // triedy = GameObject.FindGameObjectsWithTag("Search_multi");
         trieda = GameObject.Find(input.text);
-        if (triedy.Length!=0)
+        do
         {
-            Debug.Log(triedy[0]);
-            Debug.Log(triedy[1]);
-        }
-        else if (trieda != null)
-        {
-            SearchButton.sprite = Image_default;
+            if (trieda == null)
+                break;
             MojPopis = trieda.transform.parent.gameObject;
-            popis = MojPopis.transform.parent.gameObject;
-            popis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
-            popis.transform.GetChild(1).gameObject.SetActive(true); //Button back
-            popis.transform.GetChild(2).gameObject.SetActive(true); //Image
-            popis.transform.GetChild(3).gameObject.SetActive(true); //Trieda
-            popis.transform.GetChild(4).gameObject.SetActive(true);
-            popis.transform.GetChild(5).gameObject.SetActive(true);
-            popis.GetComponent<Animator>().SetBool("Open", true);
-            Triedy.control = true;
-            instance = false;
-            SearchBar.SetActive(false);
-            ErrorText.SetActive(false);
-            kamera.KameraReset();
+            triedy.Add(MojPopis.transform.parent.gameObject.name);
+            trieda.SetActive(false);
         }
-        else
-        {
-            ErrorText.SetActive(true);
-        }
+        while (trieda != null);
+        Debug.Log(triedy[0]);
     }
 }
