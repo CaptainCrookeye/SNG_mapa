@@ -18,6 +18,7 @@ public class Vyhladavanie : MonoBehaviour
     GameObject MojPopis;
     GameObject popis;
     public static bool instance = false;
+    int k = 0;
     public void OpenClose()
     {
         if(!instance)
@@ -76,15 +77,18 @@ public class Vyhladavanie : MonoBehaviour
     {
        // triedy = GameObject.FindGameObjectsWithTag("Search_multi");
         trieda = GameObject.Find(input.text);
-        do
+        k = 0;
+        while (trieda != null && k<99)
         {
             if (trieda == null)
                 break;
             MojPopis = trieda.transform.parent.gameObject;
             triedy.Add(MojPopis.transform.parent.gameObject.name);
             trieda.SetActive(false);
+            k++;
         }
-        while (trieda != null);
-        Debug.Log(triedy[0]);
+        for(int i=0;i<triedy.Count;i++)
+           Debug.Log(triedy[i]);
+        Debug.Log(k);
     }
 }
