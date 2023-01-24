@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Events;
 public class Vyhladavanie : MonoBehaviour
 {
     [SerializeField] TMP_InputField input;
@@ -13,12 +14,25 @@ public class Vyhladavanie : MonoBehaviour
     [SerializeField] Image SearchButton;
     [SerializeField] Sprite Image_default;
     [SerializeField] Sprite Image_pressed;
+    [SerializeField] GameObject vyhladavania;
+    [SerializeField] GameObject _1;
+    [SerializeField] GameObject _2;
+    [SerializeField] GameObject _3;
+    Button button_1;
+    Button button_2;
+    Button button_3;
+    TMP_Text text_1;
+    TMP_Text text_2;
+    TMP_Text text_3;
+    [SerializeField] Animator vyhlanim;
     GameObject trieda;
     List<string> triedy = new List<string>();
+    List<GameObject> zalohy = new List<GameObject>();
     GameObject MojPopis;
     GameObject popis;
     public static bool instance = false;
-    int k = 0;
+    bool vyhlinstance = false;
+    int kontrola = 0;
     public void OpenClose()
     {
         if(!instance)
@@ -42,15 +56,37 @@ public class Vyhladavanie : MonoBehaviour
         yield return new WaitForSeconds(0.6f);      
         SearchBar.SetActive(false);
     }
-    public void Search1()
+    public void Search()
     {
         if(!Triedy.control)
-        {         
-            trieda = GameObject.Find(input.text);
-            if(trieda != null)
+        {
+            //setup
+            for(int i=0;i<triedy.Count;i++)
+            {
+                zalohy[i].SetActive(true);
+            }
+            zalohy.Clear();           
+            triedy.Clear();
+            MojPopis = null;
+            trieda = GameObject.Find(input.text);         
+            kontrola = 0;
+            while (trieda != null && kontrola < 99) //hladanie vsetkych objektov podla mena
+            {
+                if (trieda == null)
+                    break;
+                MojPopis = trieda.transform.parent.gameObject;
+                zalohy.Add(trieda);
+                triedy.Add(MojPopis.transform.parent.gameObject.name);
+                trieda.SetActive(false);
+                trieda = GameObject.Find(input.text);
+                kontrola++;
+            }
+            //vyhladavanie
+            if (triedy.Count==0)
+                ErrorText.SetActive(true);           
+            else if (triedy.Count==1) //1 trieda
             {
                 SearchButton.sprite = Image_default;
-                MojPopis = trieda.transform.parent.gameObject;
                 popis = MojPopis.transform.parent.gameObject;
                 popis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
                 popis.transform.GetChild(1).gameObject.SetActive(true); //Button back
@@ -63,32 +99,65 @@ public class Vyhladavanie : MonoBehaviour
                 instance = false;
                 SearchBar.SetActive(false);
                 ErrorText.SetActive(false);
-                kamera.KameraReset();              
-            }                       
-            else 
-            {
-                ErrorText.SetActive(true);
+                kamera.KameraReset();
             }
-        }
-        
-        
+            else
+            { 
+                ErrorText.SetActive(false);
+                VyhlOpenClose();
+                if (triedy.Count == 2)
+                {
+                    _3.SetActive(false);                   
+                    text_1 = _1.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_1 = _1.transform.GetChild(1).GetComponent<Button>();
+                    text_1.text = triedy[0];
+                    button_1.onClick.AddListener(delegate { Search_multi(0); });
+                    text_2 = _2.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_2 = _2.transform.GetChild(1).GetComponent<Button>();
+                    text_2.text = triedy[1];
+                    button_2.onClick.AddListener(delegate { Search_multi(1); });
+                }
+                if (triedy.Count == 3)
+                {
+
+                }
+            }
+        }        
     }
-    public void Search()//testing
+    void Search_multi(int o)
     {
-       // triedy = GameObject.FindGameObjectsWithTag("Search_multi");
-        trieda = GameObject.Find(input.text);
-        k = 0;
-        while (trieda != null && k<99)
+        SearchButton.sprite = Image_default;
+        popis = GameObject.Find(triedy[o]);
+        popis.transform.GetChild(0).gameObject.SetActive(true); //Pozadie
+        popis.transform.GetChild(1).gameObject.SetActive(true); //Button back
+        popis.transform.GetChild(2).gameObject.SetActive(true); //Image
+        popis.transform.GetChild(3).gameObject.SetActive(true); //Trieda
+        popis.transform.GetChild(4).gameObject.SetActive(true);
+        popis.transform.GetChild(5).gameObject.SetActive(true);
+        popis.GetComponent<Animator>().SetBool("Open", true);
+        Triedy.control = true;
+        instance = false;
+        SearchBar.SetActive(false);
+        kamera.KameraReset();
+    }
+    public void VyhlOpenClose()
+    {
+        if (!vyhlinstance)
         {
-            if (trieda == null)
-                break;
-            MojPopis = trieda.transform.parent.gameObject;
-            triedy.Add(MojPopis.transform.parent.gameObject.name);
-            trieda.SetActive(false);
-            k++;
+            vyhlinstance = true;
+            vyhlanim.SetBool("Open", true);
+            vyhladavania.transform.GetChild(0).gameObject.SetActive(true);
         }
-        for(int i=0;i<triedy.Count;i++)
-           Debug.Log(triedy[i]);
-        Debug.Log(k);
+        else
+        {
+            StartCoroutine(vyhlclose());
+        }
+    }
+    IEnumerator vyhlclose()
+    {
+        vyhlanim.SetBool("Open", false);
+        vyhlinstance = false;
+        yield return new WaitForSeconds(0.6f);
+        vyhladavania.transform.GetChild(0).gameObject.SetActive(false);
     }
 }
