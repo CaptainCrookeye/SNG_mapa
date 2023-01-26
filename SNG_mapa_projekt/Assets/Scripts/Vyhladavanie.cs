@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -31,7 +31,7 @@ public class Vyhladavanie : MonoBehaviour
     GameObject MojPopis;
     GameObject popis;
     public static bool instance = false;
-    bool vyhlinstance = false;
+    public static bool vyhlinstance = false;
     int kontrola = 0;
     public void OpenClose()
     {
@@ -58,17 +58,19 @@ public class Vyhladavanie : MonoBehaviour
     }
     public void Search()
     {
-        if(!Triedy.control)
+        if (!Triedy.control)
         {
             //setup
-            for(int i=0;i<triedy.Count;i++)
+            for (int i = 0; i < triedy.Count; i++)
             {
                 zalohy[i].SetActive(true);
             }
-            zalohy.Clear();           
+            zalohy.Clear();
             triedy.Clear();
             MojPopis = null;
-            trieda = GameObject.Find(input.text);         
+            trieda = GameObject.Find(input.text);
+            if (trieda != null && trieda.tag != "Search Marker")
+                trieda = null;
             kontrola = 0;
             while (trieda != null && kontrola < 99) //hladanie vsetkych objektov podla mena
             {
@@ -117,9 +119,20 @@ public class Vyhladavanie : MonoBehaviour
                     text_2.text = triedy[1];
                     button_2.onClick.AddListener(delegate { Search_multi(1); });
                 }
-                if (triedy.Count == 3)
+                else if (triedy.Count == 3)
                 {
-
+                    text_1 = _1.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_1 = _1.transform.GetChild(1).GetComponent<Button>();
+                    text_1.text = triedy[0];
+                    button_1.onClick.AddListener(delegate { Search_multi(0); });
+                    text_2 = _2.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_2 = _2.transform.GetChild(1).GetComponent<Button>();
+                    text_2.text = triedy[1];
+                    button_2.onClick.AddListener(delegate { Search_multi(1); });
+                    text_3 = _3.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_3 = _3.transform.GetChild(1).GetComponent<Button>();
+                    text_3.text = triedy[2];
+                    button_3.onClick.AddListener(delegate { Search_multi(2); });
                 }
             }
         }        

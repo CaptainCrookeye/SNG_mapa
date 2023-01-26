@@ -37,5 +37,6 @@ public class Triedy : MonoBehaviour
         popis.transform.GetChild(3).gameObject.SetActive(false);
         popis.transform.GetChild(4).gameObject.SetActive(false);
         popis.transform.GetChild(5).gameObject.SetActive(false);
+        Vyhladavanie.vyhlinstance = false;
     }
 }
