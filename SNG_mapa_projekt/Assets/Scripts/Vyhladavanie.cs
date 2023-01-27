@@ -71,7 +71,7 @@ public class Vyhladavanie : MonoBehaviour
             zalohy.Clear();
             triedy.Clear();
             MojPopis = null;
-            trieda = GameObject.Find(input.text);
+            trieda = GameObject.Find(input.text.ToLower());
             if (trieda != null && trieda.tag != "Search Marker")
                 trieda = null;
             kontrola = 0;
@@ -83,7 +83,7 @@ public class Vyhladavanie : MonoBehaviour
                 zalohy.Add(trieda);
                 triedy.Add(MojPopis.transform.parent.gameObject.name);
                 trieda.SetActive(false);
-                trieda = GameObject.Find(input.text);
+                trieda = GameObject.Find(input.text.ToLower());
                 kontrola++;
             }
             //vyhladavanie
