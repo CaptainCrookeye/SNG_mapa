@@ -6192,7 +6192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &133939662
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24718,7 +24718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2081db7fd236b4abc2f1fe69909f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinZoom: 10
+  MinZoom: 7
   DefaultZoom: 17
   MaxZoom: 20
   ResetPos: {fileID: 200833290}
@@ -26909,7 +26909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &567684394
 RectTransform:
   m_ObjectHideFlags: 0
@@ -28108,7 +28108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &581739009
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40792,7 +40792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &834629285
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40833,10 +40833,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Trieda 405b
+  m_text: "Trieda 405b ale \u0161o"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d30f1e6841fdeaf45b1aa1ef51f2e047, type: 2}
+  m_sharedMaterial: {fileID: -963452540539399156, guid: d30f1e6841fdeaf45b1aa1ef51f2e047, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -51157,7 +51157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1057060609
 RectTransform:
   m_ObjectHideFlags: 0
@@ -93988,7 +93988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2021293635
 RectTransform:
   m_ObjectHideFlags: 0
