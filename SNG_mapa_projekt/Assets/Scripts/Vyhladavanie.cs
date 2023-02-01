@@ -110,6 +110,8 @@ public class Vyhladavanie : MonoBehaviour
             { 
                 ErrorText.SetActive(false);
                 VyhlOpenClose();
+                _3.SetActive(true);
+                _4.SetActive(true);
                 if (triedy.Count == 2)
                 {
                     _3.SetActive(false);

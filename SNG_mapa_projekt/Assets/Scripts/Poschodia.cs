@@ -44,6 +44,7 @@ public class Poschodia : MonoBehaviour
             Button2.sprite = Button_default2;
             Button3.sprite = Button_default3;
             Button4.sprite = Button_default4;
+            Camera.main.transform.position = kamera.ResetPos.position;
         }
     }
     public void Poschodie2()
@@ -60,6 +61,7 @@ public class Poschodia : MonoBehaviour
             Button2.sprite = Button_pressed2;
             Button3.sprite = Button_default3;
             Button4.sprite = Button_default4;
+            Camera.main.transform.position = kamera.ResetPos.position;
         }       
     }
     public void Poschodie0()
@@ -76,6 +78,7 @@ public class Poschodia : MonoBehaviour
             Button2.sprite = Button_default2;
             Button3.sprite = Button_default3;
             Button4.sprite = Button_default4;
+            Camera.main.transform.position = kamera.ResetPos.position;
         }
     }
     public void Poschodie_1()
@@ -92,6 +95,7 @@ public class Poschodia : MonoBehaviour
             Button2.sprite = Button_default2;
             Button3.sprite = Button_default3;
             Button4.sprite = Button_default4;
+            Camera.main.transform.position = kamera.ResetPos.position;
         }
     }
     public void Poschodie3()
@@ -108,6 +112,7 @@ public class Poschodia : MonoBehaviour
             Button2.sprite = Button_default2;
             Button3.sprite = Button_pressed3;
             Button4.sprite = Button_default4;
+            Camera.main.transform.position = kamera.ResetPos.position;
         }
     }
     public void Poschodie4()
@@ -124,6 +129,7 @@ public class Poschodia : MonoBehaviour
             Button2.sprite = Button_default2;
             Button3.sprite = Button_default3;
             Button4.sprite = Button_pressed4;
+            Camera.main.transform.position = kamera.ResetPos.position;
         }
     }
 }
