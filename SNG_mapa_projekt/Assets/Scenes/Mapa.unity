@@ -440,8 +440,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 401b
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1840,8 +1840,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 306a
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2332,7 +2332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -288.96, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36478100
@@ -2357,8 +2357,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5595,8 +5595,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 302
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6459,7 +6459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.2397}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &133939663
@@ -6484,8 +6484,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9651,7 +9651,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199271013
@@ -9676,8 +9676,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11745,8 +11745,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 402b
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12355,7 +12355,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86978}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256235885
@@ -12380,8 +12380,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ing. Jana Sojkov\xE1"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13351,6 +13351,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263281760}
   m_CullTransparentMesh: 1
+--- !u!1 &265149215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265149216}
+  - component: {fileID: 265149218}
+  - component: {fileID: 265149217}
+  m_Layer: 5
+  m_Name: Trieda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &265149216
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265149215}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99998707, y: 0.99998707, z: 0.99998707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063478245}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -70.68, y: 623.99976}
+  m_SizeDelta: {x: 898.38, y: 184.89}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &265149217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265149215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "400 Kabinet odborn\xFDch predmetov"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 67.92
+  m_fontSizeBase: 67.92
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &265149218
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265149215}
+  m_CullTransparentMesh: 1
 --- !u!1 &270156631
 GameObject:
   m_ObjectHideFlags: 0
@@ -14109,7 +14244,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286642314}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -14639,7 +14774,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &298811644
@@ -14664,8 +14799,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14728,7 +14863,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &298811645
@@ -15346,7 +15481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86993}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &308456260
@@ -15371,8 +15506,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ing. Jozef Belan
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15933,141 +16068,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323401307}
-  m_CullTransparentMesh: 1
---- !u!1 &323883276
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 323883277}
-  - component: {fileID: 323883279}
-  - component: {fileID: 323883278}
-  m_Layer: 5
-  m_Name: "U\u010Ditelia"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &323883277
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323883276}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99998707, y: 0.99998707, z: 0.99998707}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063478245}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -288.96, y: 503.2397}
-  m_SizeDelta: {x: 457.99, y: 160.41}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &323883278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323883276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "U\u010Ditelia"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294942976
-  m_fontColor: {r: 0, g: 0.631639, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 67.92
-  m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &323883279
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323883276}
   m_CullTransparentMesh: 1
 --- !u!1 &324107939
 GameObject:
@@ -19055,7 +19055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406356517
@@ -19080,8 +19080,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19532,7 +19532,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409592463
@@ -19557,8 +19557,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21723,8 +21723,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25817,7 +25817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -288.96, y: 503.24}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515923226
@@ -25842,8 +25842,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Technik
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26164,8 +26164,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26846,7 +26846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &534042806
@@ -26871,8 +26871,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29510,7 +29510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 303.99997, y: 278.87}
+  m_AnchoredPosition: {x: 307.2, y: 269.23026}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &581739010
@@ -29535,8 +29535,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ing. Marcel Chl\xE1dek"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30004,7 +30004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86975}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &595997616
@@ -30029,8 +30029,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Mgr. J\xE1n Gonda \nMgr. Kristi\xE1n Kol\u010D\xE1k"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30668,8 +30668,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 402a
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30955,8 +30955,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 308 IT oddelenie
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31213,7 +31213,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &612964020
@@ -31238,8 +31238,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31993,8 +31993,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36473,8 +36473,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 405a
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36771,7 +36771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.8699}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &706631730
@@ -36796,8 +36796,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ing. Daniela Vannayov\xE1 \nMgr. Jakub Krcho"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36860,7 +36860,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &706631731
@@ -38370,7 +38370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86993}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732418035
@@ -38395,8 +38395,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Jakub \u0160abo "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -41831,8 +41831,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 306b
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -41966,8 +41966,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Schody - pr\xEDstavba"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -41991,8 +41991,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.9
-  m_fontSizeBase: 52.9
+  m_fontSize: 64.9
+  m_fontSizeBase: 64.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -43048,8 +43048,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 405b
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d30f1e6841fdeaf45b1aa1ef51f2e047, type: 2}
-  m_sharedMaterial: {fileID: -963452540539399156, guid: d30f1e6841fdeaf45b1aa1ef51f2e047, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -43073,8 +43073,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.92
-  m_fontSizeBase: 67.92
+  m_fontSize: 67.27
+  m_fontSizeBase: 67.27
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -43514,8 +43514,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Mgr. J\xE1n Gonda \nMgr. Kristi\xE1n Kol\u010D\xE1k"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -46126,7 +46126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f55ce14228a634247a937bc3fc5d88c9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -47437,7 +47437,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &926167494
@@ -47462,8 +47462,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50117,8 +50117,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -212.77, y: 278.86984}
-  m_SizeDelta: {x: 610.37, y: 288.67}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
+  m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &973147884
 MonoBehaviour:
@@ -50143,8 +50143,8 @@ MonoBehaviour:
   m_text: "Mgr. J\xE1n Gonda \nRNDR. Hana Kundr\xE1kov\xE1 \nIng. \u0160tefan Gajdo\u0161,
     PhD."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50168,8 +50168,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.5
-  m_fontSizeBase: 45.5
+  m_fontSize: 39.8
+  m_fontSizeBase: 39.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -50973,8 +50973,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 404b
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -51037,7 +51037,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &997407411
@@ -53224,8 +53224,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -56539,8 +56539,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 307
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -58412,7 +58412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86975}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1154525780
@@ -58437,8 +58437,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ing. Adam \u017Ditn\xFD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -59852,8 +59852,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 401a
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -59927,141 +59927,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183174773}
   m_CullTransparentMesh: 1
---- !u!1 &1186460852
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1186460853}
-  - component: {fileID: 1186460855}
-  - component: {fileID: 1186460854}
-  m_Layer: 5
-  m_Name: Trieda
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1186460853
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186460852}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000505, y: 1.0000505, z: 1.0000505}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063478245}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -100.94006, y: 624}
-  m_SizeDelta: {x: 837.85, y: 184.89}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1186460854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186460852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "400 Kabinet odborn\xFDch predmetov"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 67.92
-  m_fontSizeBase: 67.92
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1186460855
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186460852}
-  m_CullTransparentMesh: 1
 --- !u!1 &1186873367
 GameObject:
   m_ObjectHideFlags: 0
@@ -60097,7 +59962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.8698}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1186873369
@@ -60122,8 +59987,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "J\xE1n Kri\u0161tof\xEDk"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -60974,8 +60839,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Schody - pr\xEDstavba"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -60999,8 +60864,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.9
-  m_fontSizeBase: 52.9
+  m_fontSize: 64.2
+  m_fontSizeBase: 64.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -61232,7 +61097,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -226.99991, y: -40.99999}
+  m_AnchoredPosition: {x: -227, y: -41}
   m_SizeDelta: {x: 582.492, y: 391.5316}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1206555618
@@ -61242,7 +61107,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206555616}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -62779,7 +62644,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250827494}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -64062,8 +63927,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -68741,8 +68606,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 301
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -68851,7 +68716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86978}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367442074
@@ -68876,8 +68741,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ing. Eva Jan\u010D\xE1rikov\xE1"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -69490,6 +69355,141 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00012052059, y: 0.00015258789}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1373687898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373687899}
+  - component: {fileID: 1373687901}
+  - component: {fileID: 1373687900}
+  m_Layer: 5
+  m_Name: "U\u010Ditelia"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1373687899
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373687898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99998707, y: 0.99998707, z: 0.99998707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063478245}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 307.19998, y: 493.60034}
+  m_SizeDelta: {x: 457.99, y: 160.41}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1373687900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373687898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "U\u010Ditelia"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294942976
+  m_fontColor: {r: 0, g: 0.631639, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 72
+  m_fontSizeBase: 67.92
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1373687901
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373687898}
+  m_CullTransparentMesh: 1
 --- !u!1 &1376840121
 GameObject:
   m_ObjectHideFlags: 0
@@ -70006,6 +70006,142 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396962311}
+  m_CullTransparentMesh: 1
+--- !u!1 &1400710017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1400710018}
+  - component: {fileID: 1400710020}
+  - component: {fileID: 1400710019}
+  m_Layer: 5
+  m_Name: "[U\u010Ditelia]"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1400710018
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400710017}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1726.1555}
+  m_LocalScale: {x: 0.99998707, y: 0.99998707, z: 0.99998707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063478245}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 307.19998, y: 269.23062}
+  m_SizeDelta: {x: 451.91, y: 288.67}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1400710019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400710017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Mgr. Marek Matta \nMgr. Jakub Krcho\nMgr. Veronika Fejkov\xE1 \nMgr. Kristi\xE1n
+    Kol\u010D\xE1k"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 39.8
+  m_fontSizeBase: 39.8
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1400710020
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400710017}
   m_CullTransparentMesh: 1
 --- !u!1 &1401804257
 GameObject:
@@ -70557,7 +70693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03, y: 278.86993}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 457.98, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1414477876
@@ -70582,8 +70718,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "RNDR. Hana Kundr\xE1kov\xE1 \nMgr. Kristi\xE1n Kol\u010D\xE1k"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -70646,7 +70782,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1414477877
@@ -73022,8 +73158,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 304
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -74518,7 +74654,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -288.96, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1479501378
@@ -74543,8 +74679,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -77713,8 +77849,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 303
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -82417,7 +82553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652227410
@@ -82442,8 +82578,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -83033,7 +83169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86975}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677182705
@@ -83058,8 +83194,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Evan Diliberto
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -83724,7 +83860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1690571291
@@ -83749,8 +83885,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -83813,7 +83949,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1690571292
@@ -84019,8 +84155,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "403 Kabinet odborn\xFDch predmetov"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -89413,142 +89549,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00012111664, y: 0.00006151199}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1805868771
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1805868772}
-  - component: {fileID: 1805868774}
-  - component: {fileID: 1805868773}
-  m_Layer: 5
-  m_Name: "[U\u010Ditelia]"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1805868772
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805868771}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1726.1555}
-  m_LocalScale: {x: 0.99998707, y: 0.99998707, z: 0.99998707}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2063478245}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -212.76999, y: 278.87}
-  m_SizeDelta: {x: 610.37, y: 288.67}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1805868773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805868771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Mgr. Marek Matta \nMgr. Jakub Krcho\nMgr. Veronika Fejkov\xE1 \nMgr. Kristi\xE1n
-    Kol\u010D\xE1k"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 45.5
-  m_fontSizeBase: 45.5
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1805868774
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805868771}
-  m_CullTransparentMesh: 1
 --- !u!1 &1806627202
 GameObject:
   m_ObjectHideFlags: 0
@@ -89969,8 +89969,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "305 Kabinet u\u010Dite\u013Eov praxe"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -90125,7 +90125,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818428429}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -90432,7 +90432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -292, y: 278.87}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822276542
@@ -90457,8 +90457,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "J\xE1n Neuro\u010Dn\xFD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -91483,7 +91483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -292, y: 278.86984}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1843174168
@@ -91509,8 +91509,8 @@ MonoBehaviour:
   m_text: "Ing. Jozef Belan \nIng. Jana Sojkov\xE1 \nJakub \u0160abo \nJ\xE1n Dobi\xE1\u0161
     \nJ\xE1n Kri\u0161tof\xEDk"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -92989,7 +92989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1878070330
@@ -93014,8 +93014,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -95337,7 +95337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918626262
@@ -95362,8 +95362,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -98555,8 +98555,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -98701,7 +98701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 310.14, y: 278.8698}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 464.19, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1989935125
@@ -98726,8 +98726,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "RNDR. Hana Kundr\xE1kov\xE1"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -100604,8 +100604,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Trieda 404a
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -100668,7 +100668,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2022891410
@@ -102425,9 +102425,9 @@ RectTransform:
   - {fileID: 60128119}
   - {fileID: 1613811726}
   - {fileID: 286642315}
-  - {fileID: 1186460853}
-  - {fileID: 323883277}
-  - {fileID: 1805868772}
+  - {fileID: 265149216}
+  - {fileID: 1373687899}
+  - {fileID: 1400710018}
   - {fileID: 838648098}
   m_Father: {fileID: 1608220405}
   m_RootOrder: 9
@@ -102500,7 +102500,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 304, y: 278.86993}
+  m_AnchoredPosition: {x: 307.2, y: 269.2303}
   m_SizeDelta: {x: 451.91, y: 288.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2065208178
@@ -102525,8 +102525,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ing. Du\u0161an Hrabina\nJakub \u0160abo "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -102707,7 +102707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 307.03998, y: 503.23993}
+  m_AnchoredPosition: {x: 307.2, y: 493.6}
   m_SizeDelta: {x: 457.99, y: 160.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2069109439
@@ -102732,8 +102732,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -104600,8 +104600,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4568375ef70a59346be14f609066c810, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

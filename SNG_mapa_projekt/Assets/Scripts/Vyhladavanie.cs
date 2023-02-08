@@ -72,7 +72,7 @@ public class Vyhladavanie : MonoBehaviour
             triedy.Clear();
             MojPopis = null;
             trieda = GameObject.Find(input.text.ToLower());
-            if (trieda != null && trieda.tag != "Search Marker")
+            if (trieda != null && trieda.transform.parent.gameObject.name != "Zoznam učiteľov")
                 trieda = null;
             kontrola = 0;
             while (trieda != null && kontrola < 99) //hladanie vsetkych objektov podla mena

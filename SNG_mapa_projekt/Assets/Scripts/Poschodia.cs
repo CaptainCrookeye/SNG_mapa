@@ -32,7 +32,7 @@ public class Poschodia : MonoBehaviour
     int AktualnePoschodie = 0;
     public void Poschodie1()
     {
-        if(AktualnePoschodie!=1)
+        if(AktualnePoschodie!=1 && !Kamera.IsMoving)
         {
             Camera.main.transform.position = poschodie1.position;
             Kamera.CanMove = true;
@@ -49,7 +49,7 @@ public class Poschodia : MonoBehaviour
     }
     public void Poschodie2()
     {
-        if (AktualnePoschodie!=2)
+        if (AktualnePoschodie!=2 && !Kamera.IsMoving)
         {
             Camera.main.transform.position = poschodie2.position;
             Kamera.CanMove = true;
@@ -66,7 +66,7 @@ public class Poschodia : MonoBehaviour
     }
     public void Poschodie0()
     {
-        if (AktualnePoschodie != 0)
+        if (AktualnePoschodie != 0 && !Kamera.IsMoving)
         {
             Camera.main.transform.position = poschodie0.position;
             Kamera.CanMove = true;
@@ -83,7 +83,7 @@ public class Poschodia : MonoBehaviour
     }
     public void Poschodie_1()
     {
-        if (AktualnePoschodie != -1)
+        if (AktualnePoschodie != -1 && !Kamera.IsMoving)
         {
             Camera.main.transform.position = poschodie_1.position;
             Kamera.CanMove = true;
@@ -100,7 +100,7 @@ public class Poschodia : MonoBehaviour
     }
     public void Poschodie3()
     {
-        if (AktualnePoschodie != 3)
+        if (AktualnePoschodie != 3 && !Kamera.IsMoving)
         {
             Camera.main.transform.position = poschodie3.position;
             Kamera.CanMove = true;
@@ -117,7 +117,7 @@ public class Poschodia : MonoBehaviour
     }
     public void Poschodie4()
     {
-        if (AktualnePoschodie != 4)
+        if (AktualnePoschodie != 4 && !Kamera.IsMoving)
         {
             Camera.main.transform.position = poschodie4.position;
             Kamera.CanMove = true;

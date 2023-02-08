@@ -11,14 +11,17 @@ public class Kamera : MonoBehaviour
     [SerializeField] float MaxZoom = 20;
     public Transform ResetPos;
     public static bool CanMove = true;
+    public static bool IsMoving = false;
     void Update()
     {
+        Debug.Log(IsMoving);
         if (Input.GetMouseButtonDown(0))
-        {
             StartTouch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }    
-        if(Input.touchCount == 2) //Zoom Android
+        if (Input.GetMouseButtonUp(0))
+            IsMoving = false;
+        if (Input.touchCount == 2) //Zoom Android
         {
+            IsMoving = true;
             Touch touch0 = Input.GetTouch(0);
             Touch touch1 = Input.GetTouch(1);
             Vector2 touch0Prev = touch0.position - touch0.deltaPosition;
@@ -30,7 +33,10 @@ public class Kamera : MonoBehaviour
         {
             Vector3 direction = StartTouch - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(CanMove)
+            {
                 Camera.main.transform.Translate(direction);
+                
+            }               
         }
         Zoom(Input.GetAxisRaw("Mouse ScrollWheel")*2.5f); //Zoom PC         
     }
