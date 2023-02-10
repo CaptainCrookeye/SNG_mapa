@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Kamera : MonoBehaviour
 {
-    //toto dat na Main Camera len pre Android
     Vector3 StartTouch;
     [SerializeField] float MinZoom = 10;
     [SerializeField] float DefaultZoom = 17;
@@ -14,7 +13,6 @@ public class Kamera : MonoBehaviour
     public static bool IsMoving = false;
     void Update()
     {
-        Debug.Log(IsMoving);
         if (Input.GetMouseButtonDown(0))
             StartTouch = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonUp(0))
