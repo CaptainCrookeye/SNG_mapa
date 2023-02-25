@@ -11,6 +11,11 @@ public class Kamera : MonoBehaviour
     public Transform ResetPos;
     public static bool CanMove = true;
     public static bool IsMoving = false;
+    Rotate rotate;
+    private void Start()
+    {
+        rotate = GetComponent<Rotate>();
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -32,8 +37,7 @@ public class Kamera : MonoBehaviour
             Vector3 direction = StartTouch - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(CanMove)
             {
-                Camera.main.transform.Translate(direction);
-                
+                Camera.main.transform.Translate(direction);               
             }               
         }
         Zoom(Input.GetAxisRaw("Mouse ScrollWheel")*2.5f); //Zoom PC         
@@ -46,6 +50,7 @@ public class Kamera : MonoBehaviour
     {
         Camera.main.orthographicSize = DefaultZoom;
         Camera.main.transform.position = ResetPos.position;
+        rotate.Default();
         CanMove = true;
     }
     private void OnTriggerEnter2D(Collider2D collision)
