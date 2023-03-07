@@ -66,7 +66,7 @@ public class Rotate : MonoBehaviour
             buttons3.transform.rotation = Quaternion.Euler(0, 0, i);
             mapa4.transform.rotation = Quaternion.Euler(0, 0, i);
             buttons4.transform.rotation = Quaternion.Euler(0, 0, i);
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(0.01f);
         }
         k = i + 1;
         instance = false;
@@ -88,7 +88,7 @@ public class Rotate : MonoBehaviour
             buttons3.transform.rotation = Quaternion.Euler(0, 0, i);
             mapa4.transform.rotation = Quaternion.Euler(0, 0, i);
             buttons4.transform.rotation = Quaternion.Euler(0, 0, i);
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(0.01f);
         }
         k = i - 1;
         instance = false;
