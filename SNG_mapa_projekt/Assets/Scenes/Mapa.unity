@@ -1888,7 +1888,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -10009,7 +10009,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0d9cc5bc91a93e8449bb3de3bd917681, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11860,10 +11860,10 @@ RectTransform:
   m_Father: {fileID: 1544004049}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1820, y: 786.1539}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -14, y: 0}
+  m_SizeDelta: {x: 1920, y: 886.1539}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &247846998
 MonoBehaviour:
@@ -30141,7 +30141,7 @@ MonoBehaviour:
   m_text: Trieda 402a
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
-  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 5344772809193843799, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -35482,7 +35482,7 @@ MonoBehaviour:
   m_text: Trieda 14a
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_sharedMaterial: {fileID: 5344772809193843799, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36311,7 +36311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 3c2d57b95f3adbb4b89fb158bac80aa2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -46548,7 +46548,7 @@ MonoBehaviour:
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
-  m_sharedMaterial: {fileID: 8938975869529427259, guid: ea675270b269827498c94ae2c1332aca, type: 2}
+  m_sharedMaterial: {fileID: 5344772809193843799, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -55425,9 +55425,9 @@ RectTransform:
   m_Father: {fileID: 1544004049}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 38, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111502366
@@ -62004,9 +62004,9 @@ RectTransform:
   m_Father: {fileID: 2093139892}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -824.27, y: -362}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -774.27, y: -312}
   m_SizeDelta: {x: 113.87, y: 113.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1249282476
@@ -66955,7 +66955,7 @@ MonoBehaviour:
   m_text: "Ing. \u0160tefan Gajdo\u0161, PhD."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -74283,7 +74283,7 @@ MonoBehaviour:
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_sharedMaterial: {fileID: 5344772809193843799, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -74817,7 +74817,7 @@ MonoBehaviour:
   m_text: "Ing. Bla\u017Eena \u010Conkov\xE1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_sharedMaterial: {fileID: 7825708430688683814, guid: 97ea7a37bc802f24ea0221e907d7a7d7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -78113,7 +78113,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 30b96c5982ce37e42b30164d34327dab, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -79084,7 +79084,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: d5473e77cf0a7b647928d3207e7496ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -88884,9 +88884,9 @@ RectTransform:
   m_Father: {fileID: 1544004049}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -702, y: 55}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -664, y: 55}
   m_SizeDelta: {x: 358.68, y: 94.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1802872397
@@ -89732,9 +89732,9 @@ RectTransform:
   m_Father: {fileID: 28205443}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -856, y: 342}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 104, y: -101}
   m_SizeDelta: {x: 153.56, y: 153.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820015873
@@ -91227,7 +91227,7 @@ MonoBehaviour:
   m_text: "U\u010Ditelia"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
-  m_sharedMaterial: {fileID: -7107843761136432091, guid: 4568375ef70a59346be14f609066c810, type: 2}
+  m_sharedMaterial: {fileID: 5344772809193843799, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -91555,9 +91555,9 @@ RectTransform:
   m_Father: {fileID: 2093139892}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -675.57, y: -361.99884}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -625.57, y: -311.99884}
   m_SizeDelta: {x: 113.87, y: 113.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1860031309
@@ -94634,7 +94634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0fed0399e0775ae458390ddd5322035f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -102724,9 +102724,9 @@ RectTransform:
   m_Father: {fileID: 1544004049}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 40, y: 36}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2093691876
@@ -102863,7 +102863,7 @@ MonoBehaviour:
   m_text: Trieda 14b
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea675270b269827498c94ae2c1332aca, type: 2}
-  m_sharedMaterial: {fileID: -1232149183994101557, guid: 1fb3ba05a36b4fd47954da17a870b5ef, type: 2}
+  m_sharedMaterial: {fileID: 5344772809193843799, guid: ea675270b269827498c94ae2c1332aca, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
