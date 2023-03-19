@@ -25233,6 +25233,7 @@ MonoBehaviour:
   buttons3: {fileID: 1156764446}
   mapa4: {fileID: 1425780383}
   buttons4: {fileID: 1607274919}
+  AndroidMode: 1
 --- !u!1 &519879431
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,9 +16,18 @@ public class Rotate : MonoBehaviour
     [SerializeField] GameObject buttons3;
     [SerializeField] GameObject mapa4;
     [SerializeField] GameObject buttons4;
+    [SerializeField] bool AndroidMode = false;
+    float t = 0.01f;
     int k = 0;
     int i = 0;
     bool instance = false;
+    private void Update()
+    {
+        if (AndroidMode)
+            t = 0.001f;
+        else
+            t = 0.005f;
+    }
     public void Right()
     {
         if(!instance)
@@ -52,7 +61,7 @@ public class Rotate : MonoBehaviour
     IEnumerator right()
     {
         instance = true;
-        for (i = k; i >= k-90; i--)
+        for (i = k; i >= k-90; i-=2)
         {
             mapa0.transform.rotation = Quaternion.Euler(0, 0, i);
             buttons0.transform.rotation = Quaternion.Euler(0, 0, i);
@@ -66,15 +75,15 @@ public class Rotate : MonoBehaviour
             buttons3.transform.rotation = Quaternion.Euler(0, 0, i);
             mapa4.transform.rotation = Quaternion.Euler(0, 0, i);
             buttons4.transform.rotation = Quaternion.Euler(0, 0, i);
-            yield return new WaitForSeconds(0.01f*Time.deltaTime);
+            yield return new WaitForFixedUpdate();
         }
-        k = i + 1;
+        k = i + 2;
         instance = false;
     }
     IEnumerator left()
     {
         instance = true;
-        for (i = k; i <= k + 90; i++)
+        for (i = k; i <= k + 90; i+=2)
         {
             mapa0.transform.rotation = Quaternion.Euler(0, 0, i);
             buttons0.transform.rotation = Quaternion.Euler(0, 0, i);
@@ -88,9 +97,9 @@ public class Rotate : MonoBehaviour
             buttons3.transform.rotation = Quaternion.Euler(0, 0, i);
             mapa4.transform.rotation = Quaternion.Euler(0, 0, i);
             buttons4.transform.rotation = Quaternion.Euler(0, 0, i);
-            yield return new WaitForSeconds(0.01f*Time.deltaTime);
+            yield return new WaitForFixedUpdate();
         }
-        k = i - 1;
+        k = i - 2;
         instance = false;
     }
 }
