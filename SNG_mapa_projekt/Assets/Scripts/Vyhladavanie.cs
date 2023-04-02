@@ -97,8 +97,8 @@ public class Vyhladavanie : MonoBehaviour
                 popis.transform.GetChild(1).gameObject.SetActive(true); //Button back
                 popis.transform.GetChild(2).gameObject.SetActive(true); //Image
                 popis.transform.GetChild(3).gameObject.SetActive(true); //Trieda
-                popis.transform.GetChild(4).gameObject.SetActive(true);
-                popis.transform.GetChild(5).gameObject.SetActive(true);
+                popis.transform.GetChild(4).gameObject.SetActive(true); //Učitelia 
+                popis.transform.GetChild(5).gameObject.SetActive(true); //[Učitelia]
                 popis.GetComponent<Animator>().SetBool("Open", true);
                 Triedy.control = true;
                 instance = false;
