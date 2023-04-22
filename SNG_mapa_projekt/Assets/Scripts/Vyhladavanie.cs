@@ -19,14 +19,17 @@ public class Vyhladavanie : MonoBehaviour
     [SerializeField] GameObject _2;
     [SerializeField] GameObject _3;
     [SerializeField] GameObject _4;
+    [SerializeField] GameObject _5;
     Button button_1;
     Button button_2;
     Button button_3;
     Button button_4;
+    Button button_5;
     TMP_Text text_1;
     TMP_Text text_2;
     TMP_Text text_3;
     TMP_Text text_4;
+    TMP_Text text_5;
     [SerializeField] Animator vyhlanim;
     GameObject trieda;
     List<string> triedy = new List<string>();
@@ -112,10 +115,12 @@ public class Vyhladavanie : MonoBehaviour
                 VyhlOpenClose();
                 _3.SetActive(true);
                 _4.SetActive(true);
+                _5.SetActive(true);
                 if (triedy.Count == 2)
                 {
                     _3.SetActive(false);
                     _4.SetActive(false);
+                    _5.SetActive(false);
                     text_1 = _1.transform.GetChild(0).GetComponent<TMP_Text>();
                     button_1 = _1.transform.GetChild(1).GetComponent<Button>();
                     text_1.text = triedy[0];
@@ -128,6 +133,7 @@ public class Vyhladavanie : MonoBehaviour
                 else if (triedy.Count == 3)
                 {
                     _4.SetActive(false);
+                    _5.SetActive(false);
                     text_1 = _1.transform.GetChild(0).GetComponent<TMP_Text>();
                     button_1 = _1.transform.GetChild(1).GetComponent<Button>();
                     text_1.text = triedy[0];
@@ -142,6 +148,26 @@ public class Vyhladavanie : MonoBehaviour
                     button_3.onClick.AddListener(delegate { Search_multi(2); });
                 }
                 else if (triedy.Count == 4)
+                {
+                    _5.SetActive(false);
+                    text_1 = _1.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_1 = _1.transform.GetChild(1).GetComponent<Button>();
+                    text_1.text = triedy[0];
+                    button_1.onClick.AddListener(delegate { Search_multi(0); });
+                    text_2 = _2.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_2 = _2.transform.GetChild(1).GetComponent<Button>();
+                    text_2.text = triedy[1];
+                    button_2.onClick.AddListener(delegate { Search_multi(1); });
+                    text_3 = _3.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_3 = _3.transform.GetChild(1).GetComponent<Button>();
+                    text_3.text = triedy[2];
+                    button_3.onClick.AddListener(delegate { Search_multi(2); });
+                    text_4 = _4.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_4 = _4.transform.GetChild(1).GetComponent<Button>();
+                    text_4.text = triedy[3];
+                    button_4.onClick.AddListener(delegate { Search_multi(3); });
+                }
+                else if (triedy.Count == 5)
                 {
                     text_1 = _1.transform.GetChild(0).GetComponent<TMP_Text>();
                     button_1 = _1.transform.GetChild(1).GetComponent<Button>();
@@ -159,6 +185,10 @@ public class Vyhladavanie : MonoBehaviour
                     button_4 = _4.transform.GetChild(1).GetComponent<Button>();
                     text_4.text = triedy[3];
                     button_4.onClick.AddListener(delegate { Search_multi(3); });
+                    text_5 = _5.transform.GetChild(0).GetComponent<TMP_Text>();
+                    button_5 = _5.transform.GetChild(1).GetComponent<Button>();
+                    text_5.text = triedy[4];
+                    button_5.onClick.AddListener(delegate { Search_multi(4); });
                 }
                 else
                     Debug.LogError("Moc tried na 1 meno.");
