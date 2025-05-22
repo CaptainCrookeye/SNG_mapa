@@ -18,7 +18,7 @@
 ## Update fotiek
 **1. nájsť súbor s fotkami** - SNG_mapa_projekt/Assets/Sprites/Fotky<br>
 **2. nahradiť fotky** - fotka sa vždy volá podľa čísla miestnosti, treba ju nahradiť s rovnakým názvom<br>
-**3. nastaviť kompresiu (optional)** - *toto nie je až tak dôležité ak aplikácia beží len na tablete ale celkovo je to fajn lebo inak by fotky zaberali strašne moc priestoru* - v Unity kliknúť na asset fotky -> napravo v tabuľke pod advanced nastaviť správne hodnoty pre dané platformy*(primárne Android, iOS a WebGL)*, tu sú hodnoty ktoré používam ja: Max Size: 1024; Resize Algorithm: Mitchell; Format: RGB(A) Compressed ASTC 12x12 block; Compressor Quality: Normal; Override ETC2 fallback: Use build settings
+**3. nastaviť kompresiu (optional)** - *toto nie je až tak dôležité ak aplikácia beží len na tablete ale celkovo je to fajn lebo inak by fotky zaberali strašne moc priestoru* - v Unity kliknúť na asset fotky -> napravo v tabuľke pod advanced nastaviť správne hodnoty pre dané platformy *(primárne Android, iOS a WebGL)*, tu sú hodnoty ktoré používam ja: Max Size: 1024; Resize Algorithm: Mitchell; Format: RGB(A) Compressed ASTC 12x12 block; Compressor Quality: Normal; Override ETC2 fallback: Use build settings
 
 ## Update popisu tried
 **1. nájsť objekt triedy v Unity** - Unity Hierarchy: Mapa/UI_ScreenSpace/Triedy_popisy_*psochodie*/*číslo triedy*<br>
